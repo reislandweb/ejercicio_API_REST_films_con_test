@@ -2,21 +2,31 @@
   "name": "ejercicio_api_rest_films",
   "version": "1.0.0",
   "description": "Ejercicio_API_REST_Films",
-  "main": "app.js",
-  "scripts": {
-    "start": "nodemon app.js",
-    "test": "jest"
+  "homepage": "https://github.com/JavierEspinosaP/Ejercicio_API_REST_Express_Films#readme",
+  "bugs": {
+    "url": "https://github.com/JavierEspinosaP/Ejercicio_API_REST_Express_Films/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JavierEspinosaP/Ejercicio_API_REST_Express_Films.git"
   },
-  "author": "Javier Espinosa",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JavierEspinosaP/Ejercicio_API_REST_Express_Films/issues"
+  "author": "Javier Espinosa",
+  "type": "commonjs",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
   },
-  "homepage": "https://github.com/JavierEspinosaP/Ejercicio_API_REST_Express_Films#readme",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "node --watch app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
   "devDependencies": {
     "jest": "^29.7.0",
     "jest-stare": "^2.5.1",
@@ -40,10 +50,5 @@
         }
       ]
     ]
-  },
-  "dependencies": {
-    "dotenv": "^17.2.0",
-    "express": "^5.1.0",
-    "nodemon": "^3.1.10"
   }
 }
